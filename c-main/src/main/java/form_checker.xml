@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <form code="site_flash_image_create" res="res.cms.ad.SiteFlashImageDb" onErrorExit="false">
+			<rules>
+				<rule>long, 		id, 			id,			auto_inc=com.redmoon.oa.db.SequenceManager$97</rule>
+				<rule>String, 		site_code,		site_code,			not,		min&gt;0, max&lt;20</rule>
+				<rule>String, 		name,		name,			not,		min&gt;0, max&lt;20</rule>
+				<rule>String, 		url1,		url1,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link1,		link1,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title1,		title1,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url2,		url2,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link2,		link2,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title2,		title2,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url3,		url3,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link3,		link3,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title3,		title3,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url4,		url4,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link4,		link4,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title4,		title4,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url5,		url5,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link5,		link5,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title5,		title5,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>int, 			is_auto,	title5,		0</rule>
+				<rule>String[], 		dir_code,	dir_code,		allow</rule>
+			</rules>
+			<unionRules>
+			</unionRules>
+    </form>
+    <form code="site_flash_image_save" res="res.cms.ad.SiteFlashImageDb" onErrorExit="false">
+			<rules>
+				<rule>long, 		id, 			id,			not</rule>
+				<rule>String, 		url1,		url1,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		name,		name,		not,		min&gt;0, max&lt;20</rule>				
+				<rule>String, 		link1,		link1,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title1,		title1,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url2,		url2,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link2,		link2,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title2,		title2,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url3,		url3,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link3,		link3,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title3,		title3,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url4,		url4,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link4,		link4,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title4,		title4,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		url5,		url5,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		link5,		link5,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>String, 		title5,		title5,		empty,		min&gt;0, max&lt;150</rule>
+				<rule>int, 			is_auto,	title5,		0</rule>
+				<rule>String[], 		dir_code,	dir_code,		allow</rule>
+			</rules>
+			<unionRules>
+			</unionRules>
+    </form>	
+</root>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<rule type="1" exclude="false">.*jsp</rule>
+	<rule type="1" exclude="false">.*\.do</rule>
+	<!--visual/formula/doFormula.do?formula=#actiConcatCheckbox(3228,"xnyqc,jcdl,rgzn,rjhxxfw,swyy,qita")-->
+	<rule type="0" exclude="true">doFormula</rule>
+	<rule type="0" exclude="true">saveSearchColProps</rule>
+	<rule type="0" exclude="false">reportServlet</rule>
+	<rule type="1" exclude="false">form_.*jsp</rule>
+	<rule type="0" exclude="true">ajax_online.jsp</rule>
+	<rule type="0" exclude="true">workplan_gantt_do.jsp</rule>
+	<rule type="0" exclude="true">module_scripts.jsp</rule>
+	<rule type="0" exclude="true">config_m.jsp</rule>
+	<rule type="0" exclude="true">script_run.jsp</rule>
+	<rule type="0" exclude="true">designer/ajax_do.jsp</rule>
+	<rule type="0" exclude="true">visual/module_show_word.jsp</rule>
+	<rule type="0" exclude="true">admin/menu_bottom.jsp</rule>
+	<rule type="0" exclude="true">admin/menu_top.jsp</rule>
+	<rule type="0" exclude="true">flow_doc_archive_save_do.jsp</rule>
+	<rule type="0" exclude="true">visual/module_list_sel.jsp</rule>
+	<rule type="0" exclude="true">showImg.do</rule>
+	<rule type="0" exclude="true">tip_phrase.jsp</rule>
+	<rule type="0" exclude="true">message_oa/send.jsp</rule>
+	<rule type="0" exclude="true">admin/flow_designer_script_view.jsp</rule>
+	<rule type="0" exclude="true">admin/script_left.jsp</rule>
+	<rule type="0" exclude="true">visual/module_field_sel.jsp</rule>
+	<rule type="0" exclude="true">visual/module_field_sel_nest.jsp</rule>
+	<rule type="0" exclude="true">visual/module_field_sel_nest1.jsp</rule>
+	<rule type="0" exclude="true">visual/module_field_sel_query_nest.jsp</rule>
+	<rule type="0" exclude="true">sales/contract_list.jsp</rule>
+	<rule type="0" exclude="false">visual/moduleListPage.do</rule>
+	<rule type="0" exclude="true">visual/moduleListNestSel</rule>
+	<rule type="0" exclude="true">admin/flow_designer_write_back.jsp</rule>
+	<rule type="0" exclude="true">admin/flow_designer_write_back_db.jsp</rule>
+	<rule type="0" exclude="true">admin/flow_designer_write_back_relate.jsp</rule>
+	<rule type="0" exclude="true">admin/flow_designer_write_back_db_relate.jsp</rule>
+
+	<rule type="0" exclude="true">visual/module_combination_condition.jsp</rule>
+	<rule type="0" exclude="true">excel</rule>
+	<rule type="0" exclude="true">script</rule>
+
+	<rule type="0" exclude="true">android/module/listNestSel</rule>
+
+	<rule type="0" exclude="true">flow_action_modify.jsp</rule>
+	<rule type="0" exclude="true">flow_predefine_init_do</rule>
+
+	<rule type="0" exclude="true">visual/module_field_list.jsp</rule>
+	<rule type="0" exclude="true">visual/module_priv_list.jsp</rule>
+
+	<rule type="0" exclude="true">admin/flow_designer_action_prop.jsp</rule>
+	<rule type="0" exclude="true">admin/flow_predefine_action_modify_getfieldtitle_ajax</rule>
+	<rule type="0" exclude="true">admin/menu_right.jsp</rule>
+
+	<rule type="0" exclude="true">form_edit_compare.jsp</rule>
+	<rule type="0" exclude="true">parseForm.do</rule>
+	<rule type="0" exclude="true">form_add.jsp</rule>
+	<rule type="0" exclude="true">form_edit.jsp</rule>
+
+	<rule type="0" exclude="true">visual/create.do</rule>
+	<rule type="0" exclude="true">visual/update.do</rule>
+	<rule type="0" exclude="true">visual/createRelate.do</rule>
+	<rule type="0" exclude="true">visual/updateRelate.do</rule>
+	<rule type="0" exclude="true">visual/updateScript.do</rule>
+	<rule type="0" exclude="true">fileark/operate.do</rule>
+	<rule type="0" exclude="true">admin/editConfig.do</rule>
+	<rule type="0" exclude="true">visual/updateCss.do</rule>
+	<rule type="0" exclude="true">visual/doImport.do</rule>
+	<rule type="0" exclude="true">userImportFinish</rule>
+	<rule type="0" exclude="true">syncModulePvg</rule>
+	<rule type="0" exclude="true">generateFlowString</rule>
+	<rule type="0" exclude="true">flow/finishAction</rule>
+	<!--因为可能会带有filter条件，其中含有特殊字符-->
+	<rule type="0" exclude="true">visual/moduleList</rule>
+	<rule type="0" exclude="true">visual/moduleCreate.do</rule>
+	<rule type="0" exclude="true">visual/moduleUpdate.do</rule>
+	<rule type="0" exclude="true">visual/btnModify.do</rule>
+	<rule type="0" exclude="true">visual/btnAdd.do</rule>
+	<rule type="0" exclude="true">flow/macro/getAjaxOptions</rule>
+	<rule type="0" exclude="true">admin/form_check_setup.jsp</rule>
+	<rule type="0" exclude="true">admin/flow_designer_action_prop_myflow.jsp</rule>
+	<rule type="0" exclude="true">admin/flow_predefine_form_field_nest_sel.jsp</rule>
+	<rule type="0" exclude="true">form/updateFormField.do</rule>
+	<rule type="0" exclude="true">admin/flow_designer_action_sel.jsp</rule>
+	<rule type="0" exclude="true">form/showReport</rule>
+	<rule type="0" exclude="true">macro_sql_ctl_js.jsp</rule>
+	<rule type="0" exclude="true">reportJsp/showReport.jsp</rule>
+</config>

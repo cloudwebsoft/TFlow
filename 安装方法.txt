@@ -1,0 +1,23 @@
+云网OA - 行云流程引擎安装说明：
+1、系统环境要求：
+   MySQL5.7.X 版本，需配置为支持utf8连接方式
+   JDK1.8
+   Tomcat8.x
+   
+2、导入根目录下的数据库文件redmoonoa_free.sql
+   例：将redmoonoa_free.sql拷贝至D盘根目录下
+   运行：mysql\bin\mysql -u root -p --default-character=utf8
+   mysql> source D:\redmoonoa.sql
+
+3、运行 http://localhost:8088/oa/setup
+   按照操作向导一步一步进行
+   
+4、前端vue3的文件在目录 front 下，首次运行：pnpm i，然后启动：pnpm serve   
+
+5、管理员帐户
+   帐号：admin 密码：111111
+
+注：
+详细安装方法请见：http://partner.yimihome.com/static/index.html#/index/idea_deploy8
+
+

@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<macroCtl code="macro_current_user">
+		<name>当前用户</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.CurrentUserCtl</className>
+		<inputValue>宏控件：当前用户</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+		<version>2</version>
+	</macroCtl>	
+	
+	<macroCtl code="macro_current_unit" isDisplay="true">
+		<name>当前单位名称</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.CurrentUnitNameCtl</className>
+		<inputValue>宏控件：当前单位名称</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>		
+	
+	<macroCtl code="macro_user_select" isDisplay="true">
+		<name>用户列表</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.UserSelectCtl</className>
+		<inputValue>宏控件：用户列表</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_dept_select">
+		<name>部门选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.DeptSelectCtl</className>
+		<inputValue>宏控件：部门选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_opinion" >
+		<name>意见输入框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.OpinionCtl</className>
+		<inputValue>宏控件：意见输入框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>text</fieldType>
+	</macroCtl>
+	<macroCtl code="macro_sign" isDisplay="true">
+		<name>签名框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.SignCtl</className>
+		<inputValue>宏控件：签名框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_sign_img">
+		<name>图片签名框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.SignImgCtl</className>
+		<inputValue>宏控件：图片签名框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(20)</fieldType>
+	</macroCtl>
+	<macroCtl code="macro_flow_number">
+		<name>自动编号</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.WorkflowSequenceCtl</className>
+		<inputValue>宏控件：自动编号</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>
+	<macroCtl code="macro_white_pad" isDisplay="false">
+		<name>手写板</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.WhitePadCtl</className>
+		<inputValue>宏控件：手写板</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>text</fieldType>
+	</macroCtl>		
+	<macroCtl code="macro_image">
+		<name>图像</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.ImageCtl</className>
+		<inputValue>宏控件：图像</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+		<version>2</version>
+	</macroCtl>	
+	<macroCtl code="macro_attachment">
+		<name>文件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.AttachmentCtl</className>
+		<inputValue>宏控件：文件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_flow_select">
+		<name>基础数据选择</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.BasicSelectCtl</className>
+		<inputValue>宏控件：基础数据选择</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="nest_table" isDisplay="true">
+		<name>嵌套表格</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.NestTableCtl</className>
+		<inputValue>宏控件：嵌套表格</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(500)</fieldType>
+		<nestType>2</nestType>
+		<version>2</version>
+	</macroCtl>	
+	<macroCtl code="lowerToUpper">
+		<name>小写转大写控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.LowerToUpperCtl</className>
+		<inputValue>宏控件：小写转大写控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+	</macroCtl>
+	<macroCtl code="macro_province_select">
+		<name>省份选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.ProvinceCtl</className>
+		<inputValue>宏控件：省份选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	
+	<macroCtl code="macro_city_select">
+		<name>城市选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.CityCtl</className>
+		<inputValue>宏控件：城市选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	
+	<macroCtl code="macro_country_select">
+		<name>区县选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.CountryCtl</className>
+		<inputValue>宏控件：区县选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+		<version>2</version>
+	</macroCtl>
+		
+	<macroCtl code="role_user_select">
+		<name>角色中用户选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.RoleUserSelectCtl</className>
+		<inputValue>宏控件：角色中用户选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(20)</fieldType>
+		<version>2</version>
+	</macroCtl>
+
+	<macroCtl code="macro_ueditor">
+		<name>富文本编辑器</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.UEditorCtl</className>
+		<inputValue>宏控件：富文本编辑器</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>text</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_raty">
+		<name>标值控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.RatyCtl</className>
+		<inputValue>宏控件：标值控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(20)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_role_select">
+		<name>角色选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.RoleSelectCtl</className>
+		<inputValue>宏控件：角色选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(20)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_my_dept_select">
+		<name>用户所在部门选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.MyDeptSelectCtl</className>
+		<inputValue>宏控件：用户所在部门选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_form_data_map" isDisplay="false">
+		<name>表单数据映射控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.FormDataMapCtl</className>
+		<inputValue>宏控件：表单数据映射控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(4000)</fieldType>
+	</macroCtl>
+
+  <macroCtl code="exchange_rate" isDisplay="false">
+		<name>汇率转换</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.ExchangeRateCtl</className>
+		<inputValue>宏控件：汇率转换</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>double</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_tags" isDisplay="false">
+		<name>关键字获取</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.TagsCtl</className>
+		<inputValue>宏控件：关键字获取</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>	
+	
+	<macroCtl code="macro_leader_examine" isDisplay="false">
+		<name>领导审批</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.LeaderExamineCtl</className>
+		<inputValue>宏控件：领导审批</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="serach_helper" isDisplay="false">
+	  <name>辅助查询</name>
+	  <author>bw</author>
+	  <className>com.redmoon.oa.flow.macroctl.SearchHelperCtl</className>
+	  <inputValue>宏控件：辅助查询</inputValue>
+	  <resource></resource>
+	  <desc></desc>
+	  <fieldType>varchar(4000)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_user_select_win">
+		<name>用户选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.UserSelectWinCtl</className>
+		<inputValue>宏控件：用户选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(2500)</fieldType>
+		<version>2</version>
+	</macroCtl>	
+	
+	<macroCtl code="macro_user_multi_select_win">
+		<name>多用户选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.UserMultiSelectWinCtl</className>
+		<inputValue>宏控件：多用户选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(2500)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_location_ctl" isDisplay="true">
+		<name>定位宏控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.LocationSelectWinCtl</className>
+		<inputValue>宏控件：定位宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+	</macroCtl>
+		
+	<macroCtl code="macro_thirdpartydb_ctl" isDisplay="false">
+		<name>集成第三方系统数据控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.ThirdPartyDbCtl</className>
+		<inputValue>宏控件：集成第三方系统数据控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_attachments">
+		<name>文件组</name>
+		<author>hlk</author>
+		<className>com.redmoon.oa.flow.macroctl.AttachmentsCtl</className>
+		<inputValue>宏控件：文件组</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(2000)</fieldType>
+	</macroCtl>
+		
+	<macroCtl code="macro_dept_sel_win">
+		<name>部门选择窗体</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.DeptSelectWinCtl</className>
+		<inputValue>宏控件：部门选择窗体</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+	</macroCtl>
+			
+	<macroCtl code="macro_fileark_dir_select">
+		<name>文件柜目录选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.FilearkDirSelectCtl</className>
+		<inputValue>宏控件：文件柜目录选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_workflow_ctl" isDisplay="true">
+		<name>流程控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.WorkflowCtl</className>
+		<inputValue>宏控件：流程控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_workflow_mine_select" isDisplay="false">
+		<name>我的流程选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.WorkflowMineSelectCtl</className>
+		<inputValue>宏控件：我的流程选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+	</macroCtl>	
+	
+	<macroCtl code="macro_paperno_select">
+		<name>文号头选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.PaperNoSelectCtl</className>
+		<inputValue>宏控件：文号头选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+	</macroCtl>	
+	
+	<macroCtl code="macro_paperno_ctl" isDisplay="true">
+		<name>文号控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.PaperNoCtl</className>
+		<inputValue>宏控件：文号控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+	</macroCtl>		
+	
+	<macroCtl code="macro_queryfield_select" isDisplay="false">
+		<name>查询字段选择窗体</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.FormQueryFieldSelectCtl</className>
+		<inputValue>宏控件：查询字段选择窗体</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(300)</fieldType>
+	</macroCtl>			
+			
+	<macroCtl code="macro_hyperlink_ctl">
+		<name>超链接控件</name>
+		<author>lzm</author>
+		<className>com.redmoon.oa.flow.macroctl.HyperLinkCtl</className>
+		<inputValue>宏控件：超链接控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(150)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_priv_sel_win" isDisplay="false">
+		<name>权限选择窗体</name>
+		<author>lzm</author>
+		<className>com.redmoon.oa.flow.macroctl.PrivilegeSelectWinCtl</className>
+		<inputValue>宏控件：权限选择窗体</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(300)</fieldType>
+	</macroCtl>	
+	
+	<macroCtl code="macro_year_ctl">
+		<name>年份宏控件</name>
+		<author>lzm</author>
+		<className>com.redmoon.oa.flow.macroctl.YearLinkCtl</className>
+		<inputValue>宏控件：年份宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>int(11)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_depts_user_multi_sel_win" isDisplay="false">
+		<name>多部门用户选择框</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.DeptUsersMultiSelectWinCtl</className>
+		<inputValue>宏控件：多部门用户选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(2500)</fieldType>
+	</macroCtl>		
+
+	<macroCtl code="macro_color_select">
+		<name>颜色选择下拉框</name>
+		<author>LYL</author>
+		<className>com.redmoon.oa.flow.macroctl.ColorSelectCtl</className>
+		<inputValue>宏控件：颜色选择下拉框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(2500)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_post">
+		<name>当前用户职位宏控件</name>
+		<author>lzm</author>
+		<className>com.redmoon.oa.flow.macroctl.CurUserPostSelectCtl</className>
+		<inputValue>宏控件：当前用户职位宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>	
+	<macroCtl code="macro_post_list">
+		<name>职位列表宏控件</name>
+		<author>lzm</author>
+		<className>com.redmoon.oa.flow.macroctl.PostListSelectCtl</className>
+		<inputValue>宏控件：职位列表宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>	
+	<macroCtl code="macro_month_ctl">
+		<name>月份宏控件</name>
+		<author>zx</author>
+		<className>com.redmoon.oa.flow.macroctl.MonthLinkCtl</className>
+		<inputValue>宏控件：月份宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>int(11)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_location_mark_ctl" isDisplay="true">
+		<name>标注宏控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.LocationMarkWinCtl</className>
+		<inputValue>宏控件：标注宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+	</macroCtl>
+	
+	<macroCtl code="macro_color_picker_ctl" isDisplay="true">
+		<name>颜色宏控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.ColorPickerWinCtl</className>
+		<inputValue>宏控件：颜色宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_color_picker_pro_ctl" isDisplay="true">
+		<name>高级颜色宏控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.ColorPickerWinProCtl</className>
+		<inputValue>宏控件：颜色宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+	</macroCtl>
+
+	<macroCtl code="macro_moredeptctl" isDisplay="true">
+		<name>多部门选择宏控件</name>
+		<author>QCG</author>
+		<className>com.redmoon.oa.flow.macroctl.DeptMultiSelectCtl</className>
+		<inputValue>多部门选择宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(2500)</fieldType>
+	</macroCtl>
+	<macroCtl code="macro_flow_type">
+		<name>流程类型</name>
+		<author>sht</author>
+		<className>com.sip.flow.macroctl.FlowTypeSelCtl</className>
+		<inputValue>宏控件：流程类型</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+	</macroCtl>
+	<macroCtl code="macro_script_ctl">
+		<name>脚本设计器</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.ScriptCtl</className>
+		<inputValue>宏控件：脚本设计器</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>text</fieldType>
+	</macroCtl>
+	<macroCtl code="macro_formula_ctl">
+		<name>函数宏控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.FormulaCtl</className>
+		<inputValue>宏控件：函数宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(250)</fieldType>
+		<version>2</version>
+	</macroCtl>
+
+	<macroCtl code="macro_email_ctl">
+		<name>邮箱宏控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.EmailCtl</className>
+		<inputValue>宏控件：邮箱宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(80)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_mobile_ctl">
+		<name>手机号宏控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.MobileCtl</className>
+		<inputValue>宏控件：手机号宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_idcard_ctl">
+		<name>身份证宏控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.IDCardCtl</className>
+		<inputValue>宏控件：身份证宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_writepad_ctl">
+		<name>手写板宏控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.WritePadCtl</className>
+		<inputValue>宏控件：手写板宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>text</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_icon_ctl">
+		<name>图标控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.IconCtl</className>
+		<inputValue>宏控件：图标控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_quote_field_ctl">
+		<name>引用字段控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.QuoteFieldCtl</className>
+		<inputValue>宏控件：引用字段控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_quote_double_field_ctl">
+		<name>双重引用字段控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.QuoteDoubleFieldCtl</className>
+		<inputValue>宏控件：双重引用字段控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_menu_select_ctl">
+		<name>系统菜单</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.MenuSelectCtl</className>
+		<inputValue>宏控件：系统菜单</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_icon_font_select_ctl">
+		<name>图标字体</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.IconFontSelectCtl</className>
+		<inputValue>宏控件：图标字体</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_module_select_ctl">
+		<name>模块选择框</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.ModuleSelectCtl</className>
+		<inputValue>宏控件：模块选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_multi_role_sel_win">
+		<name>角色多选窗体</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.RoleMultiSelWinCtl</className>
+		<inputValue>宏控件：角色选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(500)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_barcode">
+		<name>条形码宏控件</name>
+		<author>wm</author>
+		<className>com.redmoon.oa.flow.macroctl.BarcodeCtl</className>
+		<inputValue>宏控件：条形码宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<!-- 条形码最长支持32位, 暂用的是EAN13-->
+		<fieldType>varchar(32)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_uploader_ctl">
+		<name>可视化上传控件</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.UploaderCtl</className>
+		<inputValue>宏控件：可视化上传控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(30)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_dept_tree_select_ctl">
+		<name>树形部门选择框</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.DeptTreeSelectCtl</className>
+		<inputValue>宏控件：树形部门选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_basic_tree_select_ctl">
+		<name>树形基础数据选择框</name>
+		<author>fgf</author>
+		<className>com.redmoon.oa.flow.macroctl.BasicTreeSelectCtl</className>
+		<inputValue>宏控件：树形基础数据选择框</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(50)</fieldType>
+		<version>2</version>
+	</macroCtl>
+	<macroCtl code="macro_qrcode">
+		<name>二维码宏控件</name>
+		<author>bw</author>
+		<className>com.redmoon.oa.flow.macroctl.QrcodeCtl</className>
+		<inputValue>宏控件：二维码宏控件</inputValue>
+		<resource></resource>
+		<desc></desc>
+		<fieldType>varchar(20)</fieldType>
+		<version>2</version>
+	</macroCtl>
+</config>
