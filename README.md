@@ -69,10 +69,7 @@
 
 ### 学习QQ群
 
-<img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140640_5b66816c_48408.png" width="150" align="center"/>  
-<img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140822_085b8135_48408.png" width="150" align="center"/>  
-<img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140850_6e1b9977_48408.png" width="150" align="center"/>  
-<img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140913_7dbdb918_48408.png" width="150" align="center"/>  
+<img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140640_5b66816c_48408.png" width="150" align="center"/>  <img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140822_085b8135_48408.png" width="150" align="center"/>  <img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140850_6e1b9977_48408.png" width="150" align="center"/>  <img alt="群二维码" src="https://images.gitee.com/uploads/images/2021/1012/140913_7dbdb918_48408.png" width="150" align="center"/>  
 <br>
 <br>
 
