@@ -25,9 +25,9 @@
         editable: true,
         allowStateMultiLine: false,  // 允许节点上连接多条线
         expireUnit: "小时", // 到期时间单位
-        licenseDefaultInfo: "",
-        trialDefaultInfo: "",
-        licenseKey: '',
+        licenseDefaultInfo: "行云流程引擎",
+        trialDefaultInfo: "Test Version",
+        licenseKey: '', // license.dat中的key值
         isLicenseValid: true,
         cloudUrl:'',
         textEllipsis: true, // 如果节点的text过长，是否显示省略号
