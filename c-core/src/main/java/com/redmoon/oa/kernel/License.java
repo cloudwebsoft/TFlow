@@ -217,26 +217,11 @@ public class License {
 	}
 
 	public boolean isPlatformSrc() {
-		/*if (isTrial()) {
-			return false;
-		}*/
-		if (isPlatformSuper()) {
-			return true;
-		} else if (isPlatformGroup()) {
-			return true;
-		}
-		/*if (isSrc()) {
-			return true;
-		}*/
-		return versionType.equals(VERSION_PLATFORM_SRC);
+		return true;
 	}
 
 	public boolean isPlatformSuper() {
-		/*if (isSrc()) {
-			return true;
-		}*/
-		
-		return versionType.equals(VERSION_PLATFORM_SUPER);
+		return true;
 	}
 
 	public boolean isCloud() {
@@ -422,101 +407,14 @@ public class License {
 	 * @return boolean
 	 */
 	public boolean verify() {
-		try {
-			Resource resource = new ClassPathResource("publickey.dat");
-			InputStream inputStream = resource.getInputStream();
-
-			java.io.ObjectInputStream in = new java.io.ObjectInputStream(inputStream);
-			PublicKey pubkey = (PublicKey) in.readObject();
-			in.close();
-
-			ConfigUtil configUtil = SpringUtil.getBean(ConfigUtil.class);
-			inputStream = configUtil.getFile("license.dat");
-			if (inputStream != null) {
-				in = new java.io.ObjectInputStream(inputStream);
-				// 取得license.xml
-				String info = (String) in.readObject();
-				// 取得签名
-				byte[] signed = (byte[]) in.readObject();
-				in.close();
-
-				java.security.Signature signetcheck = java.security.Signature.getInstance("DSA");
-				signetcheck.initVerify(pubkey);
-				signetcheck.update(info.getBytes(StandardCharsets.UTF_8));
-				if (signetcheck.verify(signed)) {
-					toXML(info);
-					valid = true;
-				} else {
-					valid = false;
-					LogUtil.getLog(getClass()).error("Cloud Web license is invalid. 请联系官方获取技术支持！");
-				}
-			}
-		} catch (java.lang.Exception e) {
-			licenseStr = "（未找到许可证文件，您的配置可能不正确，请参考安装说明运行 "
-					+ Global.getFullRootPath() + "/setup/index.jsp）";
-			LogUtil.getLog(getClass()).error(e);
-		}
-		return valid;
+		return true;
 	}
 
 	public void validate(HttpServletRequest request) throws ErrMsgException {
 		validate();
-
-		String serverName = request.getServerName().toLowerCase();
-
-		if ("localhost".equals(serverName) || "127.0.0.1".equals(serverName)) {
-			return;
-		}
-		if (domain == null || "".equals(domain)) {
-			throw new ErrMsgException("许可证域名:" + domain + " 非法!");
-		}
-		if ("*".equals(domain)) {
-			return;
-		}
-		String[] ary = StrUtil.split(domain.toLowerCase(), ",");
-		int len = ary.length;
-		for (int i = 0; i < len; i++) {
-			if (serverName.indexOf(ary[i]) != -1) {
-				return;
-			}
-		}
-		throw new ErrMsgException("许可证中的域名非法!" + licenseStr);
 	}
 
 	public void validate() throws ErrMsgException {
-		if (!valid) {
-			userCount = TEST_VERSTION_USER_COUNT;
-			// throw new ErrMsgException("许可证非法!" + licenseStr);
-		}
-
-		// 检查时间
-		if (DateUtil.compare(new java.util.Date(), expiresDate) == 1) {
-			throw new ErrMsgException("系统已到期!" + licenseStr);
-		}
-
-		// 检查用户数
-		IUserService userService = SpringUtil.getBean(IUserService.class);
-		int uCount = userService.getValidUserCount();
-
-		if (uCount > userCount) {
-			if (!"".equals(licenseStr)) {
-				throw new ErrMsgException("许可证限定用户数不能大于" + userCount + "，" + licenseStr);
-			}
-			else {
-				throw new ErrMsgException("许可证限定用户数不能大于" + userCount);
-			}
-		}
-
-		// 检查是否含有isCloudDisk
-		if (cloudDisk == null) {
-			throw new ErrMsgException("许可证中网盘参数设置非法!" + licenseStr);
-		}
-		
-		// 不允许使用老版许可证
-		double intVer = StrUtil.toDouble(version, 1.0);
-		if (intVer < 3) {
-			throw new ErrMsgException("非法使用许可证！");
-		}
 	}
 
 	public void setExpiresDate(Date expiresDate) {
